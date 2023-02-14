@@ -10,4 +10,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	public static int returnNumber() {
+		return 1;
+	}
 }
